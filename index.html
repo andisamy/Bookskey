@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookskey</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="https://www.flaticon.com/free-icon/books-stack-of-three_29302">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body >
+    <div id="headtag"> Bookskey</div>
+    
+    
+    
+    <div id="overlay"></div>
+
+    <div class="bodycontainer">
+        <h2>Rich dad Poor Dad</h2>
+        <h4>Robort</h4>
+        <h5> e dolore sapiente tempore. Voluptatum soluta error sequi deleniti provident excepturi, consectetur quos ullam, ratione repudiandae ea minus temporibus vero modi consequatur nam veritatis!</h5>
+        <button id="deletebtn" onclick="deletebook(event)">Delete</button>
+    </div>
+   <button class="addbtn" id="addclick" onclick="addbutton()">+</button>
+   <div id="poppup-box">
+        <h1 id="booktitle">Add Book</h>
+        <form>
+            <input id="input-bookname" placeholder=" Book Title"><br>
+            <input id="input-authorname" placeholder="Author Name"><br>
+            <input id="input-about" placeholder="Shorts Descriptions about Book"><br>
+            <button id="input-addbtn">Add</button>
+            <button id="cancelbtn">cancel</button>
+        </form>
+   </div>
+   <script src="script.js"></script>  
+</body>
+</html>
